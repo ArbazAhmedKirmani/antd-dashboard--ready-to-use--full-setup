@@ -1,0 +1,23 @@
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  padding: 0 30px;
+  /* background-color: gray; */
+}
+.header div {
+  color: aliceblue;
+}
+.sidebar {
+  overflow: auto;
+  height: '100vh';
+  position: 'fixed' !important;
+  left: 0
+}
+.trigger{
+  color: white;
+  font-size: 20px;
+  padding: 22px 35px 0 0;
+}
